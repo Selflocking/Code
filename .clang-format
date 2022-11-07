@@ -1,0 +1,5 @@
+# 语言: None, Cpp, Java, JavaScript, ObjC, Proto, TableGen, TextProto
+Language:	Cpp
+BasedOnStyle:	LLVM
+# 缩进宽度
+IndentWidth:	4
