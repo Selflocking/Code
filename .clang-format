@@ -10,4 +10,4 @@ AllowShortCaseLabelsOnASingleLine: true
 # 允许短的if语句保持在同一行
 AllowShortIfStatementsOnASingleLine: true
 # 允许短的循环保持在同一行
-AllowShortLoopsOnASingleLine: true
+AllowShortLoopsOnASingleLine: false
