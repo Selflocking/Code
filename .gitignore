@@ -1,2 +1,4 @@
 .build/
 test/
+.cph/
+a.out
