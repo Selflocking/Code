@@ -5,17 +5,23 @@
 只做出来A题🥲。
 
 找规律
+
 abc             0       0
+
 abcabc          1       1
+
 abcabcabc       4       1 + 2 + 1
+
 abcabcabcabc    10      4 + 3 + 2 + 1
 
 比如看abcabcabcabc，这样看：abc abcabcabc。首先后半段是4,加上前半段后需要加上3+2+1。
+
 此时规律已经很明显。
 
 即假设S[i]为前i个正整数的和，给一个正整数n,求前n个S[i]的和, 1<=i<=n。
 
 C++写了好几次，不是超时就是超范围。问了别人才找到通项：https://oeis.org/A000292。
+
 即(n-1)\*n\*(n+1)/6
 
 就这样用python还写错几次，因为之前没怎么用过python
