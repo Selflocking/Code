@@ -4,7 +4,7 @@ BasedOnStyle: LLVM
 # 缩进宽度
 IndentWidth: 4
 # 允许短的块放在同一行
-AllowShortBlocksOnASingleLine: true
+AllowShortBlocksOnASingleLine: false
 # 允许短的case标签放在同一行
 AllowShortCaseLabelsOnASingleLine: true
 # 允许短的if语句保持在同一行
