@@ -3,11 +3,5 @@ Language: Cpp
 BasedOnStyle: LLVM
 # 缩进宽度
 IndentWidth: 4
-# 允许短的块放在同一行
-AllowShortBlocksOnASingleLine: false
-# 允许短的case标签放在同一行
-AllowShortCaseLabelsOnASingleLine: true
-# 允许短的if语句保持在同一行
-AllowShortIfStatementsOnASingleLine: true
-# 允许短的循环保持在同一行
-AllowShortLoopsOnASingleLine: false
+# tab宽度
+TabWidth:	4
