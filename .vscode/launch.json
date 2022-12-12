@@ -8,7 +8,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "C/C++单文件调试",
-            "program": "${workspaceFolder}/.build/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/.build/a.out",
             "args": [],
             "cwd": "${fileDirname}",
             //设置成为neverOpen，这样在第一次运行的时候不会跳转到调试控制台

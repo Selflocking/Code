@@ -8,7 +8,7 @@
             "args": [
                 "${file}",
                 "-o",
-                "${workspaceFolder}/.build/${fileBasenameNoExtension}",
+                "${workspaceFolder}/.build/a.out",
                 //添加调试信息
                 "-glldb",
                 //设置c++版本为17
