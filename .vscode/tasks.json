@@ -3,39 +3,45 @@
     "tasks": [
         {
             "type": "process",
-            "label": "build",
+            "label": "Build C++ program",
             "command": "clang++",
             "args": [
                 "${file}",
                 "-o",
                 "${workspaceFolder}/.build/a.out",
-                //添加调试信息
                 "-glldb",
-                //设置c++版本为17
                 "-std=c++17",
-                //启用彩色警告
                 "-fdiagnostics-color=always",
-                // 启用诊断
                 "-pedantic",
                 "-Wall",
-                "-Wextra",
-                // 多线程支持
-                // "-pthread",
+                "-Wextra"
             ],
             "options": {
                 "cwd": "${fileDirname}"
             },
             "presentation": {
-                // 执行任务时是否跳转到终端面板，可以为always，silent，never。具体参见VSC的文档，即使设为never，手动点进去还是可以看到
                 "reveal": "never",
-                // 不同的文件的编译信息共享一个终端面板
                 "panel": "shared"
             },
             "group": {
-                "kind": "build",
-                "isDefault": true
+                "kind": "build"
             },
-            "detail": "编译"
+            "detail": "编译C/C++程序",
+        },
+        {
+            "type": "process",
+            "label": "Build Rust program",
+            "command": "rustc",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${workspaceFolder}/.build/a.out"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build",
         }
     ]
 }

@@ -13,7 +13,18 @@
             "cwd": "${fileDirname}",
             //设置成为neverOpen，这样在第一次运行的时候不会跳转到调试控制台
             "internalConsoleOptions": "neverOpen",
-            "preLaunchTask": "build"
+            "preLaunchTask": "Build C++ program",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Rust单文件调试",
+            "program": "${workspaceFolder}/.build/a.out",
+            "args": [],
+            "cwd": "${fileDirname}",
+            //设置成为neverOpen，这样在第一次运行的时候不会跳转到调试控制台
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "Build Rust program"
         }
     ]
 }
