@@ -12,16 +12,17 @@ int main() {
     int count = 0;
     while (N--) {
         bool flag = 0;
-        cin>>id;
+        cin >> id;
         for (int i = 0; i < 17; ++i) {
             if (!isdigit(id[i])) {
                 flag = 1;
                 count++;
-                cout<<id<<endl;
+                cout << id << endl;
                 break;
             }
         }
-        if (flag) continue;
+        if (flag)
+            continue;
 
         int S = 0;
         for (int i = 0; i < 17; ++i) {
@@ -29,9 +30,10 @@ int main() {
         }
         if (M[S % 11] != id[17]) {
             count++;
-            cout<<id<<endl;
+            cout << id << endl;
         }
     }
-    if (count == 0) cout << "All passed";
+    if (count == 0)
+        cout << "All passed";
     return 0;
 }

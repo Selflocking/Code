@@ -31,11 +31,15 @@ bool checkHostName() {
         }
         if (s[i] == '.') {
             if (dot == 0) {
-                if (i - loc - 1 > 16) return false; //每个单词长度不能超过16
-                if (i - loc == 1) return false; //不能 ..
+                if (i - loc - 1 > 16)
+                    return false; //每个单词长度不能超过16
+                if (i - loc == 1)
+                    return false; //不能 ..
             } else {
-                if (i - dot - 1 > 16) return false; //每个单词长度不能超过16
-                if (i - dot == 1) return false; //不能 ..
+                if (i - dot - 1 > 16)
+                    return false; //每个单词长度不能超过16
+                if (i - dot == 1)
+                    return false; //不能 ..
             }
             dot = i;
             continue;
@@ -46,8 +50,10 @@ bool checkHostName() {
         }
     }
     // if (dot == 0) return false;  //必须有点
-    if ((int)s.size() - dot == 1) return false; //点不能在末尾
-    if (loc2 - dot == 1) return false;          //点不能在 / 前
+    if ((int)s.size() - dot == 1)
+        return false; //点不能在末尾
+    if (loc2 - dot == 1)
+        return false; //点不能在 / 前
     //如果没有resource,要保证总长度不能超过32, 同时不能是类似与 a@ 这样的字符串
     if (loc2 == 0 && (int)s.size() - loc - 1 > 32 || (int)s.size() - loc == 1)
         return false;
@@ -56,10 +62,13 @@ bool checkHostName() {
     return true;
 }
 bool checkResource() {
-    if (loc2 == 0) return true; //如果没有 / 证明没有resource.
+    if (loc2 == 0)
+        return true; //如果没有 / 证明没有resource.
     // cout<<(int)s.size() - 1 - loc2;
-    if (loc2 == s.size() - 1) return false;          //如果以 / 结尾
-    if ((int)s.size() - 1 - loc2 > 16) return false; //如果超过 16
+    if (loc2 == s.size() - 1)
+        return false; //如果以 / 结尾
+    if ((int)s.size() - 1 - loc2 > 16)
+        return false; //如果超过 16
 
     for (int i = loc2 + 1; i < (int)s.size(); ++i) {
         if (!((s[i] <= 'z' && s[i] >= 'a') || (s[i] <= 'Z' && s[i] >= 'A') ||

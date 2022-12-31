@@ -9,7 +9,8 @@ int main() {
     int n;
     cin >> n;
     q.resize(n + 1);
-    for (int i = 1; i <= n; ++i) cin >> q[i];
+    for (int i = 1; i <= n; ++i)
+        cin >> q[i];
     int i;
     for (i = 1; i <= n; ++i) {
         int mi = 1e5 + 10;
@@ -20,7 +21,8 @@ int main() {
                 cnt++;
             }
         }
-        if (cnt == n) break;
+        if (cnt == n)
+            break;
     }
     cout << i;
     return 0;

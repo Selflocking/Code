@@ -11,7 +11,7 @@ int main() {
     //好像是因为末尾空格,getchar()一下
     getchar();
 
-    getline(cin,s);
+    getline(cin, s);
     if (s.length() <= n) {
         for (int i = 0; i < n - s.length(); ++i) {
             cout << ch;
@@ -24,5 +24,4 @@ int main() {
     }
 
     return 0;
-    
 }

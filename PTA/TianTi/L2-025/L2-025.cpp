@@ -32,14 +32,16 @@ int main() {
     int k;
     cin >> k;
     while (k--) {
-        for (int i = 1; i <= n; ++i) vis[i] = ori[i];
+        for (int i = 1; i <= n; ++i)
+            vis[i] = ori[i];
         int t;
         cin >> t;
         for (int i = 0; i < t; ++i) {
             int a;
             cin >> a;
             vis[a] = 0;
-            for (int j = 0; j < v[a].size(); ++j) vis[v[a][j]]--;
+            for (int j = 0; j < v[a].size(); ++j)
+                vis[v[a][j]]--;
         }
         check();
     }

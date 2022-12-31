@@ -10,7 +10,8 @@ int main(void) {
     int nowpos, newpos;
 
     while (fgets(original, sizeof(original), stdin)) {
-        if (isdigit(original[0])) continue;
+        if (isdigit(original[0]))
+            continue;
         nowpos = newpos = 0;
         // 分隔出独立的单词
         while (original[nowpos] != '\0') {
@@ -19,7 +20,8 @@ int main(void) {
                 newstr[newpos++] = c;
             } else if (isspace(c)) {
                 newstr[newpos++] = c;
-                while (original[nowpos] == ' ') nowpos++;
+                while (original[nowpos] == ' ')
+                    nowpos++;
             } else {
                 newstr[newpos++] = ' ';
                 newstr[newpos++] = c;

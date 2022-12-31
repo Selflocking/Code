@@ -31,6 +31,7 @@ int main() {
             cout << i.first << "\n";
         }
     }
-    if (flag) cout << "Bing Mei You";
+    if (flag)
+        cout << "Bing Mei You";
     return 0;
 }

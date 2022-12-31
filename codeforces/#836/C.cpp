@@ -1,7 +1,7 @@
-#include<iostream>
+#include <iostream>
 #include <numeric>
 
-using namespace  std;
+using namespace std;
 /*
 想了很久，看了jiangly的代码才慢慢明白。
 按照题目要求，类似于[1,2,3,4,5...]的数列是字典序最小的。
@@ -22,33 +22,33 @@ n肯定要放在某个位置，并且n一定是x的倍数这样的数列才能�
         }
 */
 
-const int mxN = 2e5+5;
+const int mxN = 2e5 + 5;
 
 int ans[mxN];
 
-int main(){
+int main() {
     int T;
-    cin>>T;
-    while(T--){
-        int n,x;
-        cin>>n>>x;
-        if(n%x!=0){
-            cout<<"-1\n";
+    cin >> T;
+    while (T--) {
+        int n, x;
+        cin >> n >> x;
+        if (n % x != 0) {
+            cout << "-1\n";
             continue;
         }
-        iota(ans+1, ans+n+1, 1);
+        iota(ans + 1, ans + n + 1, 1);
         ans[1] = x;
         ans[n] = 1;
 
-        for(int i = 2*x;i<=n;i+=x){
-            if(n%i==0){
+        for (int i = 2 * x; i <= n; i += x) {
+            if (n % i == 0) {
                 ans[x] = i;
                 x = i;
             }
         }
 
-        for(int i = 1;i<=n;++i){
-            cout<<ans[i]<<" \n"[i==n];
+        for (int i = 1; i <= n; ++i) {
+            cout << ans[i] << " \n"[i == n];
         }
     }
     return 0;

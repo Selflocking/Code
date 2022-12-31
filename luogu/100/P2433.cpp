@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 // 填上你觉得需要的其他头文件
 using namespace std;
 int main() {

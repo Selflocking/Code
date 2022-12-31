@@ -1,6 +1,6 @@
+#include <algorithm>
 #include <cmath>
 #include <iostream>
-#include<algorithm>
 
 using namespace std;
 //求最大公因数，algorithm头文件中有__gcd()

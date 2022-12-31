@@ -1,6 +1,6 @@
 #include <iostream>
 #include <set>
-#include<string>
+#include <string>
 using namespace std;
 set<string> ugly, book;
 // set<int> ugly, book;
@@ -21,7 +21,7 @@ int main() {
             ugly.insert(t);
         }
     }
-    
+
     cin >> M;
     bool flag = 1;
     while (M--) {
@@ -29,13 +29,15 @@ int main() {
         string t;
         cin >> t;
         if (ugly.find(t) == ugly.end() && book.find(t) == book.end()) {
-            if (flag == 0) cout << " ";
+            if (flag == 0)
+                cout << " ";
             cout << t;
             book.insert(t);
             flag = 0;
         }
     }
 
-    if (flag) cout << "No one is handsome";
+    if (flag)
+        cout << "No one is handsome";
     return 0;
 }

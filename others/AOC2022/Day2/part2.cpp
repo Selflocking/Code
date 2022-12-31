@@ -15,27 +15,27 @@ int main() {
     while (cin >> a >> b) {
         if (a == 'A') { //石头
             if (b == 'X') {
-                score += 0+3;
+                score += 0 + 3;
             } else if (b == 'Y') {
-                score += 3+1;
+                score += 3 + 1;
             } else {
-                score += 6+2;
+                score += 6 + 2;
             }
         } else if (a == 'B') { //布
             if (b == 'X') {
-                score += 0+1;
+                score += 0 + 1;
             } else if (b == 'Y') {
-                score += 3+2;
+                score += 3 + 2;
             } else {
-                score += 6+3;
+                score += 6 + 3;
             }
         } else { //剪刀
             if (b == 'X') {
-                score += 0+2;
+                score += 0 + 2;
             } else if (b == 'Y') {
-                score += 3+3;
+                score += 3 + 3;
             } else {
-                score += 6+1;
+                score += 6 + 1;
             }
         }
     }

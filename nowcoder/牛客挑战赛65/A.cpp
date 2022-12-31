@@ -1,19 +1,19 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
-  
+
 using namespace std;
-  
+
 constexpr long long MOD = 1e9 + 7;
 
 int main() {
-    long long  n;
+    long long n;
     cin >> n;
     long long res = 0;
     long long ll = 0;
     for (long long i = 0; i < n; ++i) {
-        ll = (i+ll)%MOD;
-        res = (res + ll)%MOD;
+        ll = (i + ll) % MOD;
+        res = (res + ll) % MOD;
     }
 
     // for(int i = 1;i<=n;++i){

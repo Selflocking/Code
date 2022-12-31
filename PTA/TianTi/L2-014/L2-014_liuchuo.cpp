@@ -9,7 +9,9 @@ int main() {
     for (int i = 1; i <= n; ++i) {
         int t;
         cin >> t;
-        if (t < *S.rbegin()) { S.erase(*S.upper_bound(t)); }
+        if (t < *S.rbegin()) {
+            S.erase(*S.upper_bound(t));
+        }
         S.insert(t);
     }
     cout << S.size() - 1;

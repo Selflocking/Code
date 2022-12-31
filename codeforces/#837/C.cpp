@@ -30,7 +30,7 @@ void solve() {
     }
 
     set<int> s;
-    for (auto &i : nums) { //10^5
+    for (auto &i : nums) { // 10^5
         for (auto &j : primes) {
             if (j * j > i)
                 break;

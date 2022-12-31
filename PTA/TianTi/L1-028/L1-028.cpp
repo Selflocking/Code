@@ -4,10 +4,12 @@ using namespace std;
 
 int isPrime(long long a) {
     //注意1也要判断
-    if(a==1) return 0;
+    if (a == 1)
+        return 0;
     long long i;
-    for (i = 2; i <=sqrt(a); ++i) {
-        if (a % i == 0) return 0;
+    for (i = 2; i <= sqrt(a); ++i) {
+        if (a % i == 0)
+            return 0;
     }
     return 1;
 }

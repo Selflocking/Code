@@ -22,7 +22,9 @@ int main() {
         int cnt = 0;
         for (int i = 1; i <= n; ++i) {
             int bak = n - i - sum[n] + sum[i];
-            if (arr[i]) { cnt += bak; }
+            if (arr[i]) {
+                cnt += bak;
+            }
         }
         int loc = 0;
         int add = 0;

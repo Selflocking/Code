@@ -8,7 +8,8 @@ struct peo {
     int sco;
 };
 bool cmp(peo a, peo b) {
-    if (a.sco != b.sco) return a.sco > b.sco;
+    if (a.sco != b.sco)
+        return a.sco > b.sco;
     return a.name < b.name;
 }
 int main() {
@@ -17,8 +18,10 @@ int main() {
     vector<peo> v(n);
     for (int i = 0; i < n; i++) {
         cin >> v[i].name >> v[i].sco;
-        if (v[i].sco >= 60) sum += 20;
-        if (v[i].sco >= g) sum += 30;
+        if (v[i].sco >= 60)
+            sum += 20;
+        if (v[i].sco >= g)
+            sum += 30;
     }
     sort(v.begin(), v.end(), cmp);
     rank[0] = 1;
