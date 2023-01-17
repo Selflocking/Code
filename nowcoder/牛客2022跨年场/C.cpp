@@ -52,8 +52,8 @@ int main() {
     }
     fun(0, arr.size() - 1);
     if (cnt == 0) {
-        long long t = stoll(s+s);
-        cout<<t%7<<"\n";
+        long long t = stoll(s + s);
+        cout << t % 7 << "\n";
     } else {
         cout << sum / cnt % MOD << "\n";
     }
