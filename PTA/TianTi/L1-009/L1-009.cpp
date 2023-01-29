@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-//求最大公因数，algorithm头文件中有__gcd()
+// 求最大公因数，algorithm头文件中有__gcd()
 long gcd(long a, long b) {
     while (b != 0) {
         long t = a % b;
@@ -17,11 +17,11 @@ int main() {
     long a, b;
     int N;
     cin >> N;
-    //初始0 0/1
+    // 初始0 0/1
     long fenmu = 1, fenzi = 0, zhengshu = 0;
     while (N--) {
         scanf("%ld/%ld", &a, &b);
-        //通分
+        // 通分
         fenzi = fenzi * b + fenmu * a;
         fenmu = b * fenmu;
         // 化简,gcd()不能求负数,例如-3 9会输出-3
@@ -34,7 +34,7 @@ int main() {
             fenzi %= fenmu;
         }
     }
-    //输出
+    // 输出
     if (zhengshu != 0) {
         if (fenzi != 0) {
             cout << zhengshu << " " << fenzi << "/" << fenmu;

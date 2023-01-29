@@ -13,7 +13,7 @@ int main() {
     freopen("data.out", "w", stdout);
     char a, b;
     while (cin >> a >> b) {
-        if (a == 'A') { //石头
+        if (a == 'A') { // 石头
             if (b == 'X') {
                 score += 0 + 3;
             } else if (b == 'Y') {
@@ -21,7 +21,7 @@ int main() {
             } else {
                 score += 6 + 2;
             }
-        } else if (a == 'B') { //布
+        } else if (a == 'B') { // 布
             if (b == 'X') {
                 score += 0 + 1;
             } else if (b == 'Y') {
@@ -29,7 +29,7 @@ int main() {
             } else {
                 score += 6 + 3;
             }
-        } else { //剪刀
+        } else { // 剪刀
             if (b == 'X') {
                 score += 0 + 2;
             } else if (b == 'Y') {

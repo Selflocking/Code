@@ -22,7 +22,7 @@ int main() {
     }
     for (int i = 0; i < len; ++i) {
         // cout << A[i];
-        //加上if(A[i])才正确,奇了怪了
+        // 加上if(A[i])才正确,奇了怪了
         if (A[i])
             cout << A[i];
     }

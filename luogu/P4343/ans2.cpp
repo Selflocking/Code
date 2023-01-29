@@ -29,7 +29,7 @@ int main() {
     for (int i = 0; i < l; ++i) {
         cin >> logs[i];
     }
-    //先求最小值
+    // 先求最小值
     ll lo = 0, hi = mxN;
     while (hi - lo > 1) {
         ll mid = lo + (hi - lo) / 2;
@@ -48,7 +48,7 @@ int main() {
     } else {
         cout << hi << " ";
     }
-    //再求最大值
+    // 再求最大值
     lo = 0, hi = mxN;
     while (hi - lo > 1) {
         ll mid = lo + (hi - lo) / 2;

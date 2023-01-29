@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//注意:是四舍五入取整.
+// 注意:是四舍五入取整.
 int main() {
     int n;
     char ch;

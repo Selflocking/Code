@@ -8,7 +8,7 @@ int main() {
     char ch;
     string s;
     cin >> n >> ch;
-    //好像是因为末尾空格,getchar()一下
+    // 好像是因为末尾空格,getchar()一下
     getchar();
 
     getline(cin, s);

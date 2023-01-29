@@ -6,7 +6,7 @@ using namespace std;
 char num[55];
 
 int main() {
-    //倍数要用double.....
+    // 倍数要用double.....
     double B = 1;
     cin >> num;
     int len = strlen(num);

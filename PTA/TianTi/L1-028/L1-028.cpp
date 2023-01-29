@@ -3,7 +3,7 @@
 using namespace std;
 
 int isPrime(long long a) {
-    //注意1也要判断
+    // 注意1也要判断
     if (a == 1)
         return 0;
     long long i;

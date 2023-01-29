@@ -25,7 +25,7 @@ int main() {
     sort(arr, arr + n);
     int lo = 1, hi = mxA;
     // lo~hi 距离，check牛的数量，距离越大，牛的数量越小。所以是单调递减。
-    //需要找最大的距离。
+    // 需要找最大的距离。
     while (hi - lo > 1) {
         int mid = lo + (hi - lo) / 2;
         if (check(mid)) {

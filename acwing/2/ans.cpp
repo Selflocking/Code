@@ -17,7 +17,7 @@ int main() {
     }
 
     // f[i][j]代表只考虑前i个物品下，背包总容量为j的情况下的最大价值。
-    for (int i = 1; i <= n; ++i) {     //故 1<=i<=n
+    for (int i = 1; i <= n; ++i) {     // 故 1<=i<=n
         for (int j = 0; j <= v; ++j) { // 0<=j<=v
             if (j >= V[i]) {
                 f[i][j] = max(f[i - 1][j], f[i - 1][j - V[i]] + W[i]);

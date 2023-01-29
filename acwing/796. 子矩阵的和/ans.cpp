@@ -23,7 +23,7 @@ int main() {
     while (q--) {
         int a, b, c, d;
         cin >> a >> b >> c >> d;
-        //注意这里，注意边界
+        // 注意这里，注意边界
         cout << sum[c][d] - sum[a - 1][d] - sum[c][b - 1] + sum[a - 1][b - 1]
              << "\n";
     }

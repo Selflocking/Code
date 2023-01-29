@@ -29,7 +29,7 @@ int main() {
             count = 0;
         }
     }
-    //分情况讨论
+    // 分情况讨论
     if ((b - a + 1) % 5 == 0)
         printf("Sum = %d", sum);
     else
