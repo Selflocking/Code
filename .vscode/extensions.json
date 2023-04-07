@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "llvm-vs-code-extensions.vscode-clangd",
+        "vadimcn.vscode-lldb",
+        "divyanshuagrawal.competitive-programming-helper",
+        "guyutongxue.cpp-reference",
+        "rust-lang.rust-analyzer"
+    ]
+}
