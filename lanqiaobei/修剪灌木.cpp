@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -28,20 +28,19 @@ using namespace std;
 // 3 2 1
 // 3 0 1
 
-
 int a[10005];
 
-int main(){
-	int n = 0;
-	cin>>n;
-	for(int i = 0;i<n;++i){
-		int x = (n-i-1)*2;
-		int y = i*2;
-		a[i] = max(x,y);
-	}
-	
-	for(int i = 0;i<n;++i){
-		cout<<a[i]<<"\n";
-	}
-	return 0;
+int main() {
+    int n = 0;
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        int x = (n - i - 1) * 2;
+        int y = i * 2;
+        a[i] = max(x, y);
+    }
+
+    for (int i = 0; i < n; ++i) {
+        cout << a[i] << "\n";
+    }
+    return 0;
 }
