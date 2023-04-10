@@ -11,10 +11,8 @@ int main() {
     while (N--) {
         cin >> a >> b >> c >> d;
 
-        if (b == (a + c) && d != b)
-            AJ++;
-        if (d == (a + c) && b != d)
-            BJ++;
+        if (b == (a + c) && d != b) AJ++;
+        if (d == (a + c) && b != d) BJ++;
 
         if (AJ > A) {
             cout << "A" << endl << BJ;

@@ -17,8 +17,7 @@ int main() {
             int t;
             cin >> t;
             sum += t;
-            if ((i + j) % 2 == 1)
-                mi = min(mi, t);
+            if ((i + j) % 2 == 1) mi = min(mi, t);
         }
     }
     if (n % 2 == 1) {

@@ -7,13 +7,10 @@ int main() {
     int cnt = 0;
     string s;
     while (cin >> s) {
-        if (s == ".")
-            break;
+        if (s == ".") break;
         cnt++;
-        if (cnt == 2)
-            P[0] = s;
-        if (cnt == 14)
-            P[1] = s;
+        if (cnt == 2) P[0] = s;
+        if (cnt == 14) P[1] = s;
     }
 
     if (P[0] == "") {

@@ -9,8 +9,7 @@ struct stu {
     int sum, cnt;
 };
 bool cmp(stu a, stu b) {
-    if (a.cnt != b.cnt)
-        return a.cnt > b.cnt;
+    if (a.cnt != b.cnt) return a.cnt > b.cnt;
     return 1.0 * a.sum / a.cnt < 1.0 * b.sum / b.cnt;
 }
 bool a[10000010];
@@ -35,8 +34,7 @@ int main() {
     int nn = min(n, 3);
     partial_sort(ans.begin(), ans.begin() + nn, ans.end(), cmp);
     for (int i = 0; i < nn; i++) {
-        if (i != 0)
-            cout << " ";
+        if (i != 0) cout << " ";
         cout << ans[i].name;
     }
     for (int i = 0; i < 3 - n; i++)

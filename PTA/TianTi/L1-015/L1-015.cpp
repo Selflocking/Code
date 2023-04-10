@@ -12,8 +12,7 @@ int main() {
     else
         ban = n / 2 + 1;
     for (int i = 0; i < ban; i++) {
-        for (int j = 0; j < n; ++j)
-            cout << ch;
+        for (int j = 0; j < n; ++j) cout << ch;
         cout << endl;
     }
     return 0;

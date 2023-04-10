@@ -11,8 +11,7 @@ void solve() {
     cin >> n;
     int cnt = 0;
     for (auto &i : nums) {
-        if (i > n)
-            break;
+        if (i > n) break;
         cnt++;
     }
     cout << cnt << "\n";

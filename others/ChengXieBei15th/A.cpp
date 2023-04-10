@@ -15,11 +15,10 @@ int main() {
     long long res = 1e18;
     for (int i = 0; i < n; ++i) {
         long long tmp = a[i];
-        int j = (i + 1)%n;
+        int j = (i + 1) % n;
         while (j != i) {
             int t = j - 1;
-            if (t < 0)
-                t = n - 1;
+            if (t < 0) t = n - 1;
             if (a[j] - b[t] > 0) {
                 tmp += a[j] - b[t];
             }

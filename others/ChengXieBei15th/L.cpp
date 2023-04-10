@@ -3,14 +3,16 @@
 
 using namespace std;
 
-inline int f(long long n, long long i) { return floor((double)n / i) + i - 1; }
+inline int f(long long n, long long i) {
+    return floor((double)n / i) + i - 1;
+}
 
 void solve() {
     long long n, l, r;
     cin >> n >> l >> r;
 
-    if(l==r){
-        cout<<r<<"\n";
+    if (l == r) {
+        cout << r << "\n";
         return;
     }
 

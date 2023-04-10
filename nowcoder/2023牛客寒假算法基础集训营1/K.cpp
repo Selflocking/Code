@@ -21,8 +21,7 @@ int main() {
     }
 
     for (int i = n - 1; i >= 0; --i) {
-        if (s[i])
-            continue;
+        if (s[i]) continue;
         if (m > 0) {
             s[i] = 1;
             m--;
@@ -33,14 +32,10 @@ int main() {
     int ans = 0;
     for (int i = 0; i < n - 2; ++i) {
         int cnt = 0;
-        if (s[i])
-            cnt++;
-        if (s[i + 1])
-            cnt++;
-        if (s[i + 2])
-            cnt++;
-        if (cnt >= 2)
-            ans++;
+        if (s[i]) cnt++;
+        if (s[i + 1]) cnt++;
+        if (s[i + 2]) cnt++;
+        if (cnt >= 2) ans++;
     }
     cout << ans << "\n";
     return 0;

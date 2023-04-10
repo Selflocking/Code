@@ -9,12 +9,10 @@ void solve() {
 
     bool res = false;
 
-
-
-    if(res){
-        cout<<"YES\n";
-    }else{
-        cout<<"NO\n";
+    if (res) {
+        cout << "YES\n";
+    } else {
+        cout << "NO\n";
     }
 }
 

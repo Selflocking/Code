@@ -16,8 +16,7 @@ int main() {
         memset(Left, 0, sizeof Left);
         memset(Right, 0, sizeof Right);
         memset(Result, 0, sizeof Result);
-        for (int i = 0; i < 3; ++i)
-            cin >> Left[i] >> Right[i] >> Result[i];
+        for (int i = 0; i < 3; ++i) cin >> Left[i] >> Right[i] >> Result[i];
         for (char ch = 'A'; ch <= 'L'; ++ch) {
             if (isFake(ch, 1)) { // 先假设ch为轻球，如果没问题就输出并break；
                 cout << ch << " is the counterfeit coin and it is light. \n";
@@ -59,8 +58,7 @@ bool isFake(char ch, bool light) {
             }
         }
         // 如果该球没在此次称量中出现，且结果不是even，则假设错误。
-        if (lite_mark == 0 && Result[i][0] != 'e')
-            return false;
+        if (lite_mark == 0 && Result[i][0] != 'e') return false;
     }
     // 如果该球没有在称量中出现过，就返回false，否则就是真的
     if (mark)

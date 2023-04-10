@@ -5,7 +5,9 @@ using namespace std;
 using ll = long long;
 constexpr int mxN = 1e5 + 5;
 
-int f(int x) { return __builtin_popcount(x); }
+int f(int x) {
+    return __builtin_popcount(x);
+}
 
 int main() {
     ios_base::sync_with_stdio(false);

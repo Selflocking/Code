@@ -16,8 +16,7 @@ void work(ll dp[][4]) {
         dp[i + 1][0] = 1;
         for (int j = 1; j <= 3; ++j) {
             dp[i + 1][j] = dp[i][j];
-            if (s[i] == ss[j])
-                dp[i + 1][j] += dp[i][j - 1];
+            if (s[i] == ss[j]) dp[i + 1][j] += dp[i][j - 1];
         }
     }
 }

@@ -28,14 +28,10 @@ int main() {
     }
     long long max = 0, j = -1;
     for (int i = 0; i < s.size(); i++) {
-        if (s[i] == 'u')
-            ans = l[i] + r[i];
-        if (s[i] == 'd')
-            ans = l[i] * r[i];
-        if (ans > max)
-            max = ans, j = i;
+        if (s[i] == 'u') ans = l[i] + r[i];
+        if (s[i] == 'd') ans = l[i] * r[i];
+        if (ans > max) max = ans, j = i;
     }
-    if (j >= 0)
-        s[j] = 'a';
+    if (j >= 0) s[j] = 'a';
     cout << s;
 }

@@ -54,7 +54,6 @@ int main() {
         cnt = temp;
     }
 
-    if (tttttt == n)
-        cout << "Game Over.";
+    if (tttttt == n) cout << "Game Over.";
     return 0;
 }

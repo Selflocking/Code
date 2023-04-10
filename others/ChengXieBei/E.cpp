@@ -16,8 +16,7 @@ int getNums(int x) {
             cnt++;
         }
     }
-    if (x != 1)
-        cnt++;
+    if (x != 1) cnt++;
     return cnt;
 }
 

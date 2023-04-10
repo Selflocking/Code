@@ -5,7 +5,9 @@ using namespace std;
 
 constexpr int mxN = 1e5 + 5;
 
-inline long long lowbit(long long x) { return x & -x; }
+inline long long lowbit(long long x) {
+    return x & -x;
+}
 
 void solve() {
     long long n, x;

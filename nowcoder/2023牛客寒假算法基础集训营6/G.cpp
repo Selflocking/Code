@@ -51,8 +51,7 @@ int main() {
     for (int a : res) {
         ans += a;
         k--;
-        if (k == 0)
-            break;
+        if (k == 0) break;
     }
 
     cout << ans << "\n";

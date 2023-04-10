@@ -55,8 +55,7 @@ int main() {
                 sum += nums[*it];
                 int t = *it;
                 it++;
-                if (flag)
-                    locs.erase(t);
+                if (flag) locs.erase(t);
             }
         }
     }

@@ -14,7 +14,9 @@ int find(int x) {
         return fa[x] = find(fa[x]);
 }
 
-void megra(int a, int b) { fa[find(a)] = find(b); }
+void megra(int a, int b) {
+    fa[find(a)] = find(b);
+}
 
 int main() {
     ios::sync_with_stdio(false);

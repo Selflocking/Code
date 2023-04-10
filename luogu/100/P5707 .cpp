@@ -9,10 +9,8 @@ int main() {
     int h = 7, m = 50;
     h -= time / 60;
     m -= time % 60;
-    if (m < 0)
-        m += 60, h--;
-    if (h < 0)
-        h += 24;
+    if (m < 0) m += 60, h--;
+    if (h < 0) h += 24;
 
     printf("%02d:%02d", h, m);
     return 0;

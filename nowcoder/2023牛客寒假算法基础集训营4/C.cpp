@@ -25,8 +25,7 @@ int main() {
 
     for (int x = 1; x <= n; ++x) {
         for (int i = 1; i <= n; ++i) {
-            if (i == x)
-                continue;
+            if (i == x) continue;
             for (int j = m; j >= w[i]; --j) {
                 f[j] = max(f[j], f[j - w[i]] + v[i]);
             }
@@ -36,8 +35,7 @@ int main() {
     }
     for (int x = 1; x <= n; ++x) {
         for (int i = 1; i <= n; ++i) {
-            if (i == x)
-                continue;
+            if (i == x) continue;
             for (int j = m - w[x]; j >= w[i]; --j) {
                 f[j] = max(f[j], f[j - w[i]] + v[i]);
             }

@@ -39,10 +39,8 @@ int main() {
         }
         str[point + 1] = '\0';
         for (int i = 0; i < strlen(str); ++i) {
-            if (isupper(str[i]) && str[i] != 'I')
-                str[i] += 32;
-            if (str[i] == '?')
-                str[i] = '!';
+            if (isupper(str[i]) && str[i] != 'I') str[i] += 32;
+            if (str[i] == '?') str[i] = '!';
         }
         int idx;
         p = strtok(str, " ");

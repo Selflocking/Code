@@ -9,8 +9,7 @@ int f[N][1005];
 
 int main() {
     cin >> n >> m;
-    for (int i = 1; i <= m; ++i)
-        cin >> v[i] >> w[i];
+    for (int i = 1; i <= m; ++i) cin >> v[i] >> w[i];
 
     for (int i = 1; i <= m; ++i) {
         for (int j = 0; j <= n; ++j) {

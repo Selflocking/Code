@@ -17,8 +17,7 @@ int main() {
     }
     for (int i = 1; i <= n; ++i) {
         for (int j = i + 1; j <= n; ++j) {
-            if (a[j] % a[i] == 0)
-                b[i]++;
+            if (a[j] % a[i] == 0) b[i]++;
         }
     }
 
@@ -27,8 +26,7 @@ int main() {
         cin >> op >> x;
         if (op == 1) {
             for (int i = 1; i <= n; ++i) {
-                if (x % a[i] == 0)
-                    b[i]++;
+                if (x % a[i] == 0) b[i]++;
             }
 
             a.emplace_back(x);

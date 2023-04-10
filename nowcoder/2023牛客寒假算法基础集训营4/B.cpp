@@ -13,8 +13,7 @@ long long n, m;
 
 long long mod(long long a) {
     a %= m;
-    if (a < 0)
-        a += m;
+    if (a < 0) a += m;
     return a;
 }
 

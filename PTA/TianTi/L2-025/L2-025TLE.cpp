@@ -27,16 +27,14 @@ int main() {
         }
         int flag = 1;
         for (int i = 1; i <= n; ++i) {
-            if (vis[i] == 1)
-                continue;
+            if (vis[i] == 1) continue;
             for (int j = i; j <= n; ++j) {
                 if (map[i][j] == 1 && vis[j] == 0) {
                     flag = 0;
                     break;
                 }
             }
-            if (flag == 0)
-                break;
+            if (flag == 0) break;
         }
         if (flag)
             cout << "YES\n";

@@ -17,15 +17,13 @@ void solve() {
     }
 
     long long k = h / n;
-    if (h % n != 0)
-        k = k + 1;
+    if (h % n != 0) k = k + 1;
 
     for (int i = 0; i < n - 1; ++i) {
         if (a[i] < k) {
             h -= a[i];
             k = h / (n - i - 1);
-            if (h % (n - i - 1) != 0)
-                k++;
+            if (h % (n - i - 1) != 0) k++;
         }
     }
 

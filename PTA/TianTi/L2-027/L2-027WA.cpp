@@ -11,10 +11,8 @@ int main() {
         string t;
         int a;
         cin >> t >> a;
-        if (a >= g)
-            sum += 50;
-        if (a < g && a >= 60)
-            sum += 20;
+        if (a >= g) sum += 50;
+        if (a < g && a >= 60) sum += 20;
         m.insert({a, t});
     }
     cout << sum << "\n";

@@ -32,15 +32,13 @@ void solve() {
     set<int> s;
     for (auto &i : nums) { // 10^5
         for (auto &j : primes) {
-            if (j * j > i)
-                break;
+            if (j * j > i) break;
             if (i % j == 0) {
                 if (!s.insert(j).second) {
                     cout << "YES\n";
                     return;
                 }
-                while (i % j == 0)
-                    i /= j;
+                while (i % j == 0) i /= j;
             }
         }
         if (i > 1) {

@@ -8,12 +8,10 @@ using namespace std;
 constexpr int mxN = 1e9;
 vector<int> primes;
 bool isPrime(int x) {
-    if (x < 1)
-        return false;
+    if (x < 1) return false;
     int temp = sqrt(x);
     for (int i = 3; i <= temp; i += 2)
-        if (x % i == 0)
-            return false;
+        if (x % i == 0) return false;
     return true;
 }
 

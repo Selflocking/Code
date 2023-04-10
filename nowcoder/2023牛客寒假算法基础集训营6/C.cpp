@@ -30,8 +30,7 @@ int main() {
             a[n - i - 1] = a[i] - 1;
         }
     }
-    if (n % 2 == 1)
-        a[n / 2] = n;
+    if (n % 2 == 1) a[n / 2] = n;
 
     string ans;
     for (int i = 0; i < n; ++i) {

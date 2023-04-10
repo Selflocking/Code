@@ -13,10 +13,8 @@ int main() {
         while (n--) {
             int temp;
             cin >> temp;
-            if (mx1 < temp)
-                swap(mx1, temp);
-            if (mx2 < temp)
-                swap(mx2, temp);
+            if (mx1 < temp) swap(mx1, temp);
+            if (mx2 < temp) swap(mx2, temp);
         }
 
         if (mx1 - mx2 > 1)

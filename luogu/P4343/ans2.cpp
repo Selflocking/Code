@@ -16,8 +16,7 @@ ll sum(ll x) {
             res++;
             temp = 0;
         }
-        if (temp < 0)
-            temp = 0;
+        if (temp < 0) temp = 0;
     }
     return res;
 }

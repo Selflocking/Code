@@ -21,8 +21,7 @@ int main() {
                 break;
             }
         }
-        if (flag)
-            continue;
+        if (flag) continue;
 
         int S = 0;
         for (int i = 0; i < 17; ++i) {
@@ -33,7 +32,6 @@ int main() {
             cout << id << endl;
         }
     }
-    if (count == 0)
-        cout << "All passed";
+    if (count == 0) cout << "All passed";
     return 0;
 }

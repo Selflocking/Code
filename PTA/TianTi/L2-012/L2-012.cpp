@@ -5,8 +5,7 @@ using namespace std;
 vector<int> q;
 
 void upTree(int i) {
-    if (i == 1)
-        return;
+    if (i == 1) return;
     while (i != 1) {
         if (q[i] < q[i / 2]) {
             swap(q[i], q[i / 2]);
@@ -20,13 +19,10 @@ void upTree(int i) {
 void judge1(int a, int b) {
     int mx, mi;
     for (int i = 1; i <= q.size() - 1; ++i) {
-        if (q[i] == a)
-            mx = i;
-        if (q[i] == b)
-            mi = i;
+        if (q[i] == a) mx = i;
+        if (q[i] == b) mi = i;
     }
-    if (mi > mx)
-        swap(mx, mi);
+    if (mi > mx) swap(mx, mi);
     if (mx - mi == 1 && mx % 2 == 1)
         cout << "T\n";
     else
@@ -36,10 +32,8 @@ void judge1(int a, int b) {
 void judge2(int a, int b) {
     int aa, bb;
     for (int i = 1; i < q.size(); ++i) {
-        if (q[i] == a)
-            aa = i;
-        if (q[i] == b)
-            bb = i;
+        if (q[i] == a) aa = i;
+        if (q[i] == b) bb = i;
     }
     if (bb / 2 == aa)
         cout << "T\n";

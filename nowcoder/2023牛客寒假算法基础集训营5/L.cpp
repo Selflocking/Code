@@ -26,8 +26,7 @@ int main() {
     f[n] = 0;
     for (int i = n; i >= 2; --i) {
         for (auto &[a, b] : cmd) {
-            if (b >= i)
-                continue;
+            if (b >= i) continue;
             ll t = i / b * b;
             f[t] = min(f[t], f[i] + a);
         }

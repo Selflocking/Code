@@ -9,8 +9,7 @@ int main() {
         printf("Only %02d:%02d.  Too early to Dang.", h, m);
     else {
         h -= 12;
-        if (m)
-            h++;
+        if (m) h++;
         for (int i = 0; i < h; ++i) {
             cout << "Dang";
         }

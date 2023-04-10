@@ -15,8 +15,7 @@ void solve() {
     int cnt = 0;
     for (int i = l1; i <= r1 && i >= l1; ++i) {
         int t = n - i;
-        if (t >= l2 && t <= r2)
-            cnt++;
+        if (t >= l2 && t <= r2) cnt++;
     }
 
     cout << cnt << "\n";
