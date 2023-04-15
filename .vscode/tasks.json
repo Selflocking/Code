@@ -7,6 +7,8 @@
             "command": "clang++",
             "args": [
                 "${file}",
+                // "-MJ",
+                // "${fileBasename}.json",
                 "-o",
                 "${workspaceFolder}/.build/a.out",
                 "-glldb",

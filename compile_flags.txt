@@ -1,0 +1,5 @@
+-std=c++17
+-fdiagnostics-color=always
+-pedantic
+-Wall
+-Wextr
