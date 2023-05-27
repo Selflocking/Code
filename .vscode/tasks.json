@@ -41,7 +41,7 @@
                 "${workspaceFolder}/.build/a.out"
             ],
             "problemMatcher": [
-                "$rustc"
+                "$rustc-watch"
             ],
             "group": "build",
         }
