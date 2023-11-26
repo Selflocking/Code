@@ -1,3 +1,7 @@
+/*
+https://atcoder.jp/contests/abc330/tasks/abc330_c
+*/
+
 #include <algorithm>
 #include <bits/stdc++.h>
 #include <cmath>
