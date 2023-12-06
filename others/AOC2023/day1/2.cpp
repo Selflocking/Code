@@ -28,7 +28,6 @@ int main() {
     fstream in;
     // in.open("example2.txt");
     in.open("input.txt");
-    // in.open("test.txt");
     if (!in.is_open()) {
         exit(-1);
     }
