@@ -5,42 +5,44 @@
  */
 #include <deque>
 #include <set>
+#include <stack>
 using namespace std;
 // @lc code=start
 class MyQueue {
-    deque<int> first, second;
+    stack<int> in, out;
+    void in2out() {
+        while (!in.empty()) {
+            out.push(in.top());
+            in.pop();
+        }
+    }
 
   public:
     MyQueue() {}
 
     void push(int x) {
-        int s = first.size();
-        while (s--) {
-            int f = this->peek();
-            second.push_front(f);
-            first.pop_front();
-        }
-        first.push_front(x);
-        s = second.size();
-        while (s--) {
-            int f = second.front();
-            first.push_front(f);
-            second.pop_front();
-        }
+        in.push(x);
     }
 
     int pop() {
-        int res = this->peek();
-        first.pop_front();
+        // 注意：只有out empty时才需考虑in2out
+        if (out.empty()) {
+            in2out();
+        }
+        int res = out.top();
+        out.pop();
         return res;
     }
 
     int peek() {
-        return first.front();
+        if (out.empty()) {
+            in2out();
+        }
+        return out.top();
     }
 
     bool empty() {
-        return first.empty();
+        return in.empty() && out.empty();
     }
 };
 
