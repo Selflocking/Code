@@ -32,20 +32,32 @@
 //     }
 // };
 // O(1) 空间：
+// class Solution {
+// public:
+//     ListNode* reverseList(ListNode* head) {
+//         ListNode * prev = head;
+//         ListNode * curr = nullptr;
+
+//         while(prev!=nullptr){
+//             auto t = prev->next;
+//             prev->next = curr;
+//             curr = prev;
+//             prev = t;
+//         }
+
+//         return curr;
+//     }
+// };
+// 递归:
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode * prev = head;
-        ListNode * curr = nullptr;
+        if(head==nullptr || head->next==nullptr) return head;
 
-        while(prev!=nullptr){
-            auto t = prev->next;
-            prev->next = curr;
-            curr = prev;
-            prev = t;
-        }
-
-        return curr;
+        auto res = reverseList(head->next);
+        head->next->next = head;
+        head->next = nullptr;
+        return res;
     }
 };
 // @lc code=end
