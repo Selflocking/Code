@@ -15,19 +15,37 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+// 迭代：
+// class Solution {
+// public:
+//     ListNode* reverseList(ListNode* head) {
+//         ListNode * res = nullptr;
+
+//         while(head!=nullptr){
+//             auto curr = new ListNode(head->val);
+//             curr->next = res;
+//             res = curr;
+//             head = head->next;
+//         }
+
+//         return res;
+//     }
+// };
+// O(1) 空间：
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode * res = nullptr;
+        ListNode * prev = head;
+        ListNode * curr = nullptr;
 
-        while(head!=nullptr){
-            auto curr = new ListNode(head->val);
-            curr->next = res;
-            res = curr;
-            head = head->next;
+        while(prev!=nullptr){
+            auto t = prev->next;
+            prev->next = curr;
+            curr = prev;
+            prev = t;
         }
 
-        return res;
+        return curr;
     }
 };
 // @lc code=end
