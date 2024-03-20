@@ -1,0 +1,374 @@
+第十四届蓝桥杯省赛Python组真题
+A组
+AcWing 4965. 三国游戏
+AcWing 5395. 平均
+AcWing 4967. 翻转
+AcWing 4964. 子矩阵
+AcWing 5021. 阶乘的和
+AcWing 5391. 奇怪的数
+AcWing 4971. 子树的大小
+AcWing 5394. 反异或01串
+B组
+AcWing 5406. 松散子序列
+AcWing 5407. 管道
+AcWing 5408. 保险箱
+AcWing 5409. 树上选点
+AcWing 5410. T字消除
+AcWing 5412. 异或和
+AcWing 5413. 混乱的数组
+C组
+AcWing 4965. 三国游戏
+AcWing 5395. 平均
+AcWing 4966. 填充
+AcWing 5396. 棋盘
+AcWing 4967. 翻转
+AcWing 4969. 异或和之差
+AcWing 5397. 小蓝的旅行计划
+AcWing 5391. 奇怪的数
+研究生组
+AcWing 4966. 填充
+AcWing 4968. 互质数的个数
+AcWing 5021. 阶乘的和
+AcWing 4970. 公因数匹配
+AcWing 5397. 小蓝的旅行计划
+AcWing 4971. 子树的大小
+AcWing 5393. 高塔
+AcWing 5394. 反异或01串
+第十四届蓝桥杯省赛Java组真题
+A组
+AcWing 5395. 平均
+AcWing 5396. 棋盘
+AcWing 4968. 互质数的个数
+AcWing 5021. 阶乘的和
+AcWing 5397. 小蓝的旅行计划
+AcWing 5392. 太阳
+AcWing 5393. 高塔
+AcWing 5394. 反异或01串
+B组
+AcWing 5398. 数组分割
+AcWing 5399. 矩形总面积
+AcWing 5400. 蜗牛
+AcWing 5401. 合并区域
+AcWing 5402. 买二赠一
+AcWing 5403. 合并石子
+AcWing 5404. 最大开支
+AcWing 5405. 魔法阵
+C组
+AcWing 4965. 三国游戏
+AcWing 5395. 平均
+AcWing 4966. 填充
+AcWing 5396. 棋盘
+AcWing 4964. 子矩阵
+AcWing 4970. 公因数匹配
+AcWing 4969. 异或和之差
+AcWing 5392. 太阳
+研究生组
+AcWing 5396. 棋盘
+AcWing 4964. 子矩阵
+AcWing 4968. 互质数的个数
+AcWing 5397. 小蓝的旅行计划
+AcWing 5391. 奇怪的数
+AcWing 5392. 太阳
+AcWing 5393. 高塔
+AcWing 5394. 反异或01串
+第十四届蓝桥杯省赛C++组真题
+A组
+AcWing 4996. 平方差
+AcWing 4997. 更小的数
+AcWing 4998. 颜色平衡树
+AcWing 4999. 买瓜
+AcWing 5000. 网络稳定性
+AcWing 5001. 异或和之和
+AcWing 5002. 像素放置
+AcWing 5003. 翻转硬币
+B组
+AcWing 4956. 冶炼金属
+AcWing 4957. 飞机降落
+AcWing 4958. 接龙数列
+AcWing 4959. 岛屿个数
+AcWing 4960. 子串简写
+AcWing 4961. 整数删除
+AcWing 4962. 景区导游
+AcWing 4963. 砍树
+C组
+AcWing 4965. 三国游戏
+AcWing 4966. 填充
+AcWing 4967. 翻转
+AcWing 4964. 子矩阵
+AcWing 4968. 互质数的个数
+AcWing 4969. 异或和之差
+AcWing 4970. 公因数匹配
+AcWing 4971. 子树的大小
+研究生组
+AcWing 4967. 翻转
+AcWing 5021. 阶乘的和
+AcWing 4970. 公因数匹配
+AcWing 5391. 奇怪的数
+AcWing 5392. 太阳
+AcWing 4971. 子树的大小
+AcWing 5393. 高塔
+AcWing 5394. 反异或01串
+第十三届蓝桥杯省赛Python组真题
+A组
+AcWing 4658. 质因数个数
+AcWing 5414. 矩形拼接
+AcWing 4654. 消除游戏
+AcWing 4655. 重新排序
+AcWing 4660. 全排列的价值
+AcWing 4648. 最长不下降子序列
+AcWing 4663. 最优清零方案
+AcWing 4650. 数的拆分
+B组
+AcWing 4652. 纸张尺寸
+AcWing 4653. 数位排序
+AcWing 4661. 蜂巢
+AcWing 4654. 消除游戏
+AcWing 4660. 全排列的价值
+AcWing 4656. 技能升级
+AcWing 4648. 最长不下降子序列
+AcWing 4663. 最优清零方案
+C组
+AcWing 4652. 纸张尺寸
+AcWing 4653. 数位排序
+AcWing 5414. 矩形拼接
+AcWing 4659. GCD
+AcWing 4661. 蜂巢
+AcWing 4655. 重新排序
+AcWing 4647. 青蛙过河
+AcWing 4662. 因数平方和
+研究生组
+AcWing 4658. 质因数个数
+AcWing 5414. 矩形拼接
+AcWing 4654. 消除游戏
+AcWing 4646. 爬树的甲壳虫
+AcWing 4656. 技能升级
+AcWing 4662. 因数平方和
+AcWing 4649. 扫描游戏
+AcWing 4650. 数的拆分
+第十三届蓝桥杯省赛Java组真题
+A组
+AcWing 4644. 求和
+AcWing 4659. GCD
+AcWing 4661. 蜂巢
+AcWing 4660. 全排列的价值
+AcWing 4647. 青蛙过河
+AcWing 4662. 因数平方和
+AcWing 4663. 最优清零方案
+AcWing 4651. 推导部分和
+B组
+AcWing 4664. 字符统计
+AcWing 4665. 最少刷题数
+AcWing 4666. 求阶乘
+AcWing 4667. 最大子矩阵
+AcWing 4668. 数组切分
+AcWing 4669. 回忆迷宫
+AcWing 4670. 红绿灯
+AcWing 4671. 拉箱子
+C组
+AcWing 4652. 纸张尺寸
+AcWing 4644. 求和
+AcWing 5414. 矩形拼接
+AcWing 4645. 选数异或
+AcWing 4659. GCD
+AcWing 4647. 青蛙过河
+AcWing 4662. 因数平方和
+AcWing 4648. 最长不下降子序列
+研究生组
+AcWing 4658. 质因数个数
+AcWing 4653. 数位排序
+AcWing 4661. 蜂巢
+AcWing 4646. 爬树的甲壳虫
+AcWing 4655. 重新排序
+AcWing 4656. 技能升级
+AcWing 4663. 最优清零方案
+AcWing 4651. 推导部分和
+第十三届蓝桥杯省赛C++组真题
+A组
+AcWing 4644. 求和
+AcWing 4645. 选数异或
+AcWing 4646. 爬树的甲壳虫
+AcWing 4647. 青蛙过河
+AcWing 4648. 最长不下降子序列
+AcWing 4649. 扫描游戏
+AcWing 4650. 数的拆分
+AcWing 4651. 推导部分和
+B组
+AcWing 4402. 刷题统计
+AcWing 4403. 修剪灌木
+AcWing 4404. X 进制减法
+AcWing 4405. 统计子矩阵
+AcWing 4406. 积木画
+AcWing 4407. 扫雷
+AcWing 4408. 李白打酒加强版
+AcWing 4409. 砍竹子
+C组
+AcWing 4652. 纸张尺寸
+AcWing 4644. 求和
+AcWing 4653. 数位排序
+AcWing 4645. 选数异或
+AcWing 4654. 消除游戏
+AcWing 4655. 重新排序
+AcWing 4656. 技能升级
+AcWing 4657. 重复的数
+研究生组
+AcWing 4658. 质因数个数
+AcWing 4645. 选数异或
+AcWing 4659. GCD
+AcWing 4646. 爬树的甲壳虫
+AcWing 4660. 全排列的价值
+AcWing 4649. 扫描游戏
+AcWing 4650. 数的拆分
+AcWing 4657. 重复的数
+第十二届蓝桥杯省赛第二场真题
+AcWing 3496. 特殊年份
+AcWing 3490. 小平方
+AcWing 3491. 完全平方数
+AcWing 3492. 负载均衡
+AcWing 3494. 国际象棋
+AcWing 3495. 完美序列
+第十二届蓝桥杯省赛第一场真题
+AcWing 3416. 时间显示
+AcWing 3417. 砝码称重
+AcWing 3418. 杨辉三角形
+AcWing 3419. 双向排序
+AcWing 3420. 括号序列
+AcWing 3421. 异或数列
+AcWing 3422. 左孩子右兄弟
+AcWing 3423. 分果果
+AcWing 3424. 最少砝码
+第十一届蓝桥杯省赛第二场真题
+AcWing 2866. 成绩分析
+AcWing 2867. 回文日期
+AcWing 2868. 子串分值
+AcWing 2869. 荒岛探测
+AcWing 2870. 字串排序
+AcWing 2871. 成绩统计
+AcWing 2872. 子串分值和
+AcWing 2873. 平面切分
+AcWing 3303. 单词分析
+AcWing 3304. 数字三角形
+AcWing 3305. 作物杂交
+AcWing 3306. 装饰珠
+第十一届蓝桥杯省赛第一场真题
+AcWing 2065. 整除序列
+AcWing 2066. 解码
+AcWing 2067. 走方格
+AcWing 2068. 整数拼接
+AcWing 2069. 网络分析
+AcWing 2875. 超级胶水
+第十讲 疑难杂题
+例题
+AcWing 1242. 修改数组
+AcWing 1234. 倍数问题
+AcWing 1213. 斐波那契
+AcWing 1171. 距离
+习题
+AcWing 1206. 剪格子
+AcWing 523. 组合数问题
+AcWing 840. 模拟散列表
+第九讲 复杂DP
+例题
+AcWing 1050. 鸣人的影分身
+AcWing 1047. 糖果
+AcWing 1222. 密码脱落
+AcWing 1220. 生命之树
+AcWing 1303. 斐波那契前 n 项和
+习题
+AcWing 1226. 包子凑数
+AcWing 1070. 括号配对
+AcWing 1078. 旅游规划
+AcWing 1217. 垒骰子
+第八讲 数论
+例题
+AcWing 1246. 等差数列
+AcWing 1295. X的因子链
+AcWing 1296. 聪明的燕姿
+AcWing 1299. 五指山
+习题
+AcWing 1223. 最大比例
+AcWing 1301. C 循环
+AcWing 1225. 正则问题
+AcWing 1243. 糖果
+第七讲 贪心
+例题
+AcWing 1055. 股票买卖 II
+AcWing 104. 货仓选址
+AcWing 122. 糖果传递
+AcWing 112. 雷达设备
+习题
+AcWing 1235. 付账问题
+AcWing 1239. 乘积最大
+AcWing 1247. 后缀表达式
+AcWing 1248. 灵能传输
+第六讲 双指针、BFS与图论
+例题
+AcWing 1238. 日志统计
+AcWing 1101. 献给阿尔吉侬的花束
+AcWing 1113. 红与黑
+AcWing 1224. 交换瓶子
+习题
+AcWing 1240. 完全二叉树的权值
+AcWing 1096. 地牢大师
+AcWing 1233. 全球变暖
+AcWing 1207. 大臣的旅费
+AcWing 826. 单链表
+第五讲 树状数组与线段树
+例题
+AcWing 1264. 动态求连续区间和
+AcWing 1265. 数星星
+AcWing 1270. 数列区间最大值
+习题
+AcWing 1215. 小朋友排队
+AcWing 1228. 油漆面积
+AcWing 1232. 三体攻击
+AcWing 1237. 螺旋折线
+AcWing 797. 差分
+AcWing 798. 差分矩阵
+第四讲 枚举、模拟与排序
+例题
+AcWing 1210. 连号区间数
+AcWing 1236. 递增三元组
+AcWing 1245. 特别数的和
+AcWing 1204. 错误票据
+AcWing 466. 回文日期
+AcWing 787. 归并排序
+习题
+AcWing 1219. 移动距离
+AcWing 1229. 日期问题
+AcWing 1231. 航班时间
+AcWing 1241. 外卖店优先级
+AcWing 788. 逆序对的数量
+第三讲 数学与简单DP
+例题
+AcWing 1205. 买不到的数目
+AcWing 1211. 蚂蚁感冒
+AcWing 1216. 饮料换购
+AcWing 2. 01背包问题
+AcWing 1015. 摘花生
+AcWing 895. 最长上升子序列
+习题
+AcWing 1212. 地宫取宝
+AcWing 1214. 波动数列
+第二讲 二分与前缀和
+例题
+AcWing 789. 数的范围
+AcWing 790. 数的三次方根
+AcWing 795. 前缀和
+AcWing 796. 子矩阵的和
+习题
+AcWing 730. 机器人跳跃问题
+AcWing 1221. 四平方和
+AcWing 1227. 分巧克力
+AcWing 99. 激光炸弹
+AcWing 1230. K倍区间
+第一讲 递归与递推
+例题
+AcWing 92. 递归实现指数型枚举
+AcWing 94. 递归实现排列型枚举
+AcWing 717. 简单斐波那契
+AcWing 95. 费解的开关
+习题
+AcWing 93. 递归实现组合型枚举
+AcWing 1209. 带分数
+AcWing 116. 飞行员兄弟
+AcWing 1208. 翻硬币
