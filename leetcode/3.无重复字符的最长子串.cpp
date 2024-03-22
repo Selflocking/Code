@@ -16,25 +16,14 @@ public:
         const int n = s.size();
         if(n<=1) return n;
 
-        int left = 0;
         int right = 0;
         int ans = 1;
-        while(right<n){
-            auto l = s[left];
-            auto r = s[right];
-            if(!st[l]){
-                st[l] = true;
+        for(int left = 0;left<n;++left){
+            if(left>0){
+                st[s[left-1]] = false;
             }
-            if(!st[r]){
-                st[r] =true;
-                right++;
-            }else{
-                while(left<right && st[r]){
-                    l = s[left];
-                    st[l] = false;
-                    left++;
-                }
-                st[r] = true;
+            while(right<n&&!st[s[right]]){
+                st[s[right]] = true;
                 right++;
             }
             ans = max(ans,right-left);
