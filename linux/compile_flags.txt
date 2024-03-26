@@ -1,0 +1,5 @@
+-std=c11
+-fdiagnostics-color=always
+-pedantic
+-Wall
+-Wextr
